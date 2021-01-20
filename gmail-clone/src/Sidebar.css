@@ -1,0 +1,32 @@
+.sidebar__compose{
+    margin: 1rem 1rem !important;
+    border: 1px solid whitesmoke !important;
+    border-radius: 1.5rem !important;
+    box-shadow: 0rem 0.2rem 0.4rem 0.02rem grey !important;
+    padding: 0.5rem 1rem !important;
+    text-transform: capitalize !important;
+    width: fit-content;
+}
+
+.sidebar__composeIcon{
+font-size: xx-large;
+color:rgb(3, 125, 182);
+}
+
+.sidebar{
+    display: flex;
+    flex: 0.17;
+    flex-direction: column;
+}
+
+.sidebar__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar{
+    height: 2rem !important;
+    width: 2rem !important;
+    cursor: pointer;
+}

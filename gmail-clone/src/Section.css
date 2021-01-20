@@ -1,0 +1,28 @@
+.section{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;
+    vertical-align: middle;
+    color: rgb(146, 146, 146);
+    cursor:pointer !important;
+    padding: 0.7rem;
+    min-width: 10rem;
+    border-width: 0 !important;
+}
+
+.section > h3 {
+    margin-left: 0.8rem;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.section:hover{
+    border-width: 0.15rem !important;
+    background-color: whitesmoke;
+}
+
+.section--selected{
+    background-color: whitesmoke;
+    border-width: 0.15rem !important;
+}
